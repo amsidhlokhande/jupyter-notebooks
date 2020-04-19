@@ -1,0 +1,75 @@
+
+---------------------------------------------------------------------------
+First start zeppelin.sh by just like following
+zeppelin.sh
+
+To Start paython spark please using below command
+ python -m spylon_kernel install --user
+ pyspark
+--------------------------------------------------------------------------
+
+
+
+
+Ubuntu User Name- ubuntu
+Password- ubuntu
+
+AWS Console Login 
+viruanjali@gmail.com
+
+
+Ubuntu-EC2
+user name is ubuntu 
+
+java version 1.8.0_232
+spark-shell -version  2.4.4
+Scala version 2.11.12
+python3 --version Python 3.6.9
+
+df -h
+
+for starting jupyter in ec2ubuntu
+jupyter notebook --ip=privateIPAddress 
+or
+pyspark
+
+ssh -i yourKeyHere.pem ec2-user@yourPublicIPHere -v
+
+
+https://blog.codota.com/21-best-intellij-plugins-for-2019-100-free/
+
+Search a file having text in Ubuntu
+grep -r –i “tintin” /home/tin/Downloads
+Search for text in files with grep command
+Where
+-i is used to ignore case distinctions
+–r is used to search for the specified directory recursively
+
+cd  /mnt/d
+
+spark installation path /opt/spark/spark-2.3.1-bin-hadoop2.7
+
+To run sh file in background 
+nohup ./actualScript.sh &
+
+To check all backgrou running process 
+ps -ef
+
+To check services and their port 
+sudo netstat -p 
+
+Filter the list
+sudo netstat -plnt | grep ':80'
+
+Or from terminal you can use
+
+ps aux | less
+
+To view every process:
+
+ps -A or ps -e
+
+To check processes started by a particuler user
+ps -u username
+
+
